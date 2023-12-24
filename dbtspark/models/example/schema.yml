@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: 'Description of your dim_date model.'
+    columns:
+      - name: id
+        description: 'Description of the id column.'
+      - name: full_date
+        description: 'Description of the full_date column.'
+      - name: year
+        description: 'Description of the year column.'
+      - name: year_week
+        description: 'Description of the year_week column.'
+      - name: year_day
+        description: 'Description of the year_day column.'
+      - name: fiscal_year
+        description: 'Description of the fiscal_year column.'
+      - name: fiscal_qtr
+        description: 'Description of the fiscal_qtr column.'
+      - name: MONTH
+        description: 'Description of the MONTH column.'
+      - name: month_name
+        description: 'Description of the month_name column.'
+      - name: week_day
+        description: 'Description of the week_day column.'
+      - name: day_name
+        description: 'Description of the day_name column.'
+      - name: day_is_weekday
+        description: 'Description of the day_is_weekday column.'
