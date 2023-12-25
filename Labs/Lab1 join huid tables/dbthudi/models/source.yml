@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: data_source
+    schema: default
+    tables:
+      - name: customers
+      - name: orders
+
+

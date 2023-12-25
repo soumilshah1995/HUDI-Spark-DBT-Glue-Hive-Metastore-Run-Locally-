@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: joined_data
+    description: "Joined data of customers and orders"
+    columns:
+      - name: customer_id
+        description: "Customer ID"
+        tests:
+          - unique
+      - name: customer_name
+        description: "Customer Name"
+      - name: city
+        description: "City"
+      - name: email
+        description: "Email"
+      - name: customer_created_at
+        description: "Customer Created At"
+      - name: address
+        description: "Address"
+      - name: state
+        description: "State"
+      - name: order_id
+        description: "Order ID"
+        tests:
+          - unique
+      - name: order_name
+        description: "Order Name"
+      - name: order_value
+        description: "Order Value"
+      - name: priority
+        description: "Priority"
+      - name: order_date
+        description: "Order Date"
