@@ -6,7 +6,8 @@ HUDI + Spark+ DBT + Glue Hive Metastore Run Locally
 # Video Guide 
 * https://www.youtube.com/watch?v=-hOtLigTzkA
 
-
+# Read Step by Step Guide 
+* https://www.linkedin.com/pulse/getting-started-apache-hudi-using-dbt-spark-backend-glue-soumil-shah-6ij5e%3FtrackingId=qfaFO9i9SJSE8%252BQQsuUj7A%253D%253D/?trackingId=qfaFO9i9SJSE8%2BQQsuUj7A%3D%3D
   
 # Steps 
 
